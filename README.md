@@ -54,21 +54,21 @@ const restapi = new altillyApi.default('key', 'secret');
 ```
 
 ## Methods / Public
-### getApiUrl() : Returns current api server url
-### getSymbols() : Get a list of all markets
-### getSymbol('ETHBTC') : Get information on a specific market
-### getCurrencies() : Get a list of all currencies
-### getCurrency('ETH') : Get information on a single currency
-### getAddressInfo('xxxxx') : Get information about an address
-### getTickers() : Get all current ticker information
-### getTicker('ETHBTC') : Get ticker for specific market
-### getSimpleTrades('ETHBTC') : Get a simple trades report for market
-### getTrades('ETHBTC') : Get an expanded trade report for market
-### getOrderBook('ETHBTC') : Get orderbooks for market
-### getSimpleOrders('ETHBTC') : Alternate simple orderbooks for market
-### getCandles('ETHBTC') : Get candlestick information for market
+`getApiUrl()` : Returns current api server url
+`getSymbols()` : Get a list of all markets
+`getSymbol('ETHBTC')` : Get information on a specific market
+`getCurrencies()` : Get a list of all currencies
+`getCurrency('ETH')` : Get information on a single currency
+`getAddressInfo('xxxxx')` : Get information about an address
+`getTickers()` : Get all current ticker information
+`getTicker('ETHBTC')` : Get ticker for specific market
+`getSimpleTrades('ETHBTC')` : Get a simple trades report for market
+`getTrades('ETHBTC')` : Get an expanded trade report for market
+`getOrderBook('ETHBTC')` : Get orderbooks for market
+`getSimpleOrders('ETHBTC')` : Alternate simple orderbooks for market
+`getCandles('ETHBTC')` : Get candlestick information for market
 
 ## Methods / Private
-### getOrders() : Get your current open orders
-### getMarketOrders('ETHBTC') : Get your current open orders in a specific market
-### createOrder(clientOrderId = null, symbol = null, side = 'buy', type = 'limit', timeInForce = 'GTC', quantity = null, price = null, stopPrice = null, tpPrice = null, expireTime = null, strictValidate = false) : Create new order
+`getOrders()` : Get your current open orders
+`getMarketOrders('ETHBTC')` : Get your current open orders in a specific market
+`createOrder(clientOrderId = null, symbol = null, side = 'buy', type = 'limit', timeInForce = 'GTC', quantity = null, price = null, stopPrice = null, tpPrice = null, expireTime = null, strictValidate = false)` : Create new order
